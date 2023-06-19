@@ -68,6 +68,40 @@ header {
             display: none;
         }
     }
+    .jumbotron {
+        background-color: $white;
+        display: flex;
+        height: 300px;
+        position: relative;
+        width: 100%;
+        z-index: -2;
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 5%;
+            width: 50%;
+            h1 {
+                font-size: 40px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+        figure {
+            display: flex;
+            .image {
+                align-self: center;
+                width: 300px;
+                background-color: #fff;
+                img {
+                    border-radius: 50%;
+                    width: 200px;
+                }
+            }
+        }
+    }
 }
 
 main {
